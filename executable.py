@@ -376,13 +376,13 @@ while camera_video.isOpened():
     if(k == 27 or (k==113)):
         break
 
-pyautogui.keyDown(key='ctrl')            
+'''pyautogui.keyDown(key='ctrl')            
 pyautogui.press('w') 
-pyautogui.keyUp(key='ctrl')  
+pyautogui.keyUp(key='ctrl')  '''
 
-'''os.system("taskkill /im brave.exe /f")  
+os.system("taskkill /im brave.exe /f")  
 os.system("taskkill /im firefox.exe /f")
 os.system("taskkill /im chrome.exe /f")
-os.system("taskkill /im MicrosoftEdge.exe /f")        '''               
+os.system("taskkill /im MicrosoftEdge.exe /f")                   
 camera_video.release()
 cv2.destroyAllWindows()
