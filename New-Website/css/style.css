@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(8, 7, 7);
+    position: fixed;
+    top:0px;
+}
+
+.logo{
+    margin-left: 100px;
+}
+
+.login-button{
+    margin-right: 60px;
+}
+
+.options{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.banner{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+.men-but{
+    
+    width: 80px;
+    height:30px;
+    color: rgb(132, 128, 128);
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+    font-size: 0.65rem;
+    transition: 0.7s;
+}
+
+.men-but:hover{
+    background-color: rgb(182, 182, 182,0.3);
+    color: white;
+}
+
+.xyz{
+    color: rgb(255, 255, 255,0.3);
+}
+
+.game-play-but{
+    width: 120px;
+    height:40px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    transition: 0.5s;
+
+}
+
+.game-play-but:hover{
+    position: relative;
+    bottom: 1px;
+    box-shadow: 1px 1px 10px 1px white;
+}
